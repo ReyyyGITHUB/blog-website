@@ -10,8 +10,10 @@ export default function Landing() {
         {/* navbar */}
         <Navbar/>
         {/* Hero banner */}
-        <HeroBanner imageUrl={"/assets/"} title={"testing"} subtitle={"testing from developer"} datetime={"dd/mm/yyyy"} articleText={"New Article!"} />
-        <BlogSection />
+        <HeroBanner imageUrl={"/assets/"} title={"For Example"} subtitle={"testing from developer"} datetime={"dd/mm/yyyy"} articleText={"New Article!"} />
+
+        <BlogSection title={"Latest Article"} subtitle={"Hello world"}/>
+
         <footer className="mt-[120px] flex">Footer in here</footer>
 
       </div>

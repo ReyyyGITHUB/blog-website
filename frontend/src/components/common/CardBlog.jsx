@@ -12,9 +12,9 @@ export default function CardBlog({
   return (
     <Link
       to={navigateLink}
-      className="group block focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#6366f166]"
+      className="group block h-full focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#6366f166]"
     >
-      <article className="flex w-full max-w-[380px] flex-col gap-6 rounded-xl border border-[#E5E7EB] bg-white p-5 shadow-lg transition duration-200 group-hover:-translate-y-1 group-hover:shadow-xl">
+      <article className="flex h-full w-full max-w-[380px] flex-col gap-6 rounded-xl border border-[#E5E7EB] bg-white p-5 shadow-lg transition duration-200 group-hover:-translate-y-1 group-hover:shadow-xl">
         {/* Top */}
         <div className="flex flex-col gap-4">
           <div className="overflow-hidden rounded-lg">
